@@ -11,12 +11,15 @@ license = {text = "LGPL v3"}
 authors = [
     { name = "Lorenzo Setale", email = "lorenzo@setale.me" }
 ]
-urls = { "Homepage" = "https://github.com/koalalorenzo/python-digitalocean" }
 
 dependencies = [
     "requests",
     "jsonpickle",
 ]
+
+[project.urls]
+Homepage = "https://github.com/koalalorenzo/python-digitalocean"
+Author = "http://who.is.lorenzo.setale.me/?"
 
 [tool.setuptools.packages.find]
 include = ["digitalocean"]
