@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-digitalocean"
+version = "1.17.0"
+description = "digitalocean.com API to manage Droplets and Images"
+readme = "DESCRIPTION.rst"
+license = {text = "LGPL v3"}
+authors = [
+    { name = "Lorenzo Setale", email = "lorenzo@setale.me" }
+]
+urls = { "Homepage" = "https://github.com/koalalorenzo/python-digitalocean" }
+
+dependencies = [
+    "requests",
+    "jsonpickle",
+]
+
+[tool.setuptools.packages.find]
+include = ["digitalocean"]
+
+
